@@ -1,5 +1,5 @@
 <h1>bitsPlease</h1>
-<h3>bitsPlease is a basic chat & scribble application created in Java, created using only basic libraries such as Swing.</h3>
+<h3>bitsPlease is a basic chat & scribble application created in Java, utilizing the Swing library.</h3>
 It consists of a simple server application, along with a client application. The user has a chat area for sending text messages and images and a drawing area where users can simultaneously draw together in a real-time manner.
 
 Preview:
