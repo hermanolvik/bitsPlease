@@ -8,7 +8,7 @@ Preview:
 
 Running the program directly from the source code:
 
-Before you proceed with the following steps, please ensure that the Java Development Kit (JDK) is installed on your terminal and updated to version 20.0.1 or newer.
+Before you proceed with the following steps, please ensure that the Java Development Kit (JDK) is installed and updated to version 20.0.1 or newer.
 
 1. Build and Start the Server
 - Open a terminal window in the 'src' folder of the repository.
