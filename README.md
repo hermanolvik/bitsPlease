@@ -1,31 +1,7 @@
-# Note: 
-    om ni märker att ni får error angående imgages när ni kör koden så kan det bero på att filen har annan packet sortiring 
-    i eran kodnings miljö ni kan fixa detta via att göra en av de följande alterbative: 
-    1) att fixa klassen ImageIn i packetet tools: ni kan sätta in "./src/"+ innan String:en file i ImageIn:s statiska metod:
+<h1>bitsPlease</h1>
+<h3>bitsPlease is a basic chat & scribble application created in Java, created using only basic libraries such as Swing.</h3>
+It consists of a simple server application, along with a client application. The user has a chat area for sending text messages and images and a drawing area where users can simultaneously draw together in a real-time manner.
 
-```java
-    public class ImageIn {
-    private static Image img;
+Preview:
 
-        public static Image getImage(String file, int w, int h){
-            try{
-                img = ImageIO.read(new File("./src/" + file));
-                img = img.getScaledInstance(w, h, Image.SCALE_DEFAULT);
-            }catch(IOException e){
-                            System.out.println(e.getMessage() +": "+ file);
-            }
-            return img;
-        }
-    
-    }
-
-
-
-```
-
-    2) annars kan ni ändra alla ställe som använder denna klass via att skriva "./src/" innan "/com/..." ex:
-
-```java
-    Image logo = ImageIn.getImage("./src/com/bitsplease/scribble/img/logo.png", 100, 110);
-
-```
+![Screenshot 2023-11-09 at 12 25 00](https://github.com/hermanolvik/bitsPlease/assets/72079200/d1dabcb3-578f-4e88-8e2d-893b5cf61935)
